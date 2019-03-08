@@ -1,6 +1,6 @@
 {
-  "name": "tilestrata-balancer",
-  "version": "0.2.1",
+  "name": "@conorpai/tilestrata-balancer",
+  "version": "0.2.2",
   "description": "Elastic, metatile-aware load lalancer for TileStrata",
   "license": "Apache-2.0",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/naturalatlas/tilestrata-balancer.git"
+    "url": "https://github.com/conorpai/tilestrata-balancer.git"
   },
   "keywords": [
     "lb",
@@ -25,9 +25,9 @@
     "proxy"
   ],
   "bugs": {
-    "url": "https://github.com/naturalatlas/tilestrata-balancer/issues"
+    "url": "https://github.com/conorpai/tilestrata-balancer/issues"
   },
-  "homepage": "https://github.com/naturalatlas/tilestrata-balancer",
+  "homepage": "https://github.com/conorpai/tilestrata-balancer",
   "dependencies": {
     "async": "^1.4.2",
     "bbox-intersect": "^0.1.1",
@@ -42,5 +42,8 @@
   "devDependencies": {
     "chai": "^3.3.0",
     "mocha": "^2.3.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
